@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Buku Sinar Dunia</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!--custom css file link-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!--header section starts-->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="index.html" class="logo"> <i class="fas fa-book"></i> sinar dunia </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="telusuri disini..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="#beranda">beranda</a>
+            <a href="#buku">buku</a>
+            <a href="#terbaru">terbaru</a>
+            <a href="#ulasan">ulasan</a>
+            <a href="#unggahan">unggahan</a>
+            <a href="#pemesanan">pemesanan</a>
+        </nav>
+    </div>
+
+</header>
+
+<!--header section ends-->
+
+<!--bottom navbar-->
+
+<nav class="bottom-navbar">
+    <a href="#beranda" class="fas fa-home"></a>
+    <a href="#buku" class="fas fa-list"></a>
+    <a href="#terbaru" class="fas fa-tags"></a>
+    <a href="#ulasan" class="fas fa-comments"></a>
+    <a href="#unggahan" class="fa-solid fa-blog"></a>
+    <a href="#pemesanan" class="fa-solid fa-envelope"></a>
+</nav>
+
+<!--login form-->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times" ></div>
+
+    <form action="">
+        <h3>sign in</h3>
+        <span>nama pengguna</span>
+        <input type="email" name="" class="box" placeholder="masukkan email" id="">
+        <span>kata sandi</span>
+        <input type="kata sandi" name="" class="box" placeholder="masukkan kata sandi" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="ingat-saya">
+            <label for="ingat-saya">ingat saya</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>lupa password ? <a href="#">klik disini</a></p>
+        <p>belum punya akun ? <a href="#">buat sekarang</a></p>
+    </form>
+
+</div>
+
+<!--home section starts-->
+
+<section class="home" id="beranda">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>Toko Buku Sinar Dunia</h3>
+            <p>Menjual berbagai macam buku termurah dan terlengkap di Indonesia. Mulai dari buku cerita sampai buku pelajaran semuanya ada di sini. Kualitas buku terjamin baru dan original. Percayakan semuanya kepada kami.</p>
+            <a class="btn">mulai belanja</a>
+        </div>
+        
+        <div class="swiper books-slider">
+           <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide"><img src="image/book-1.png" alt=""></a>
+            <a href="#" class="swiper-slide"><img src="image/book-2.png" alt=""></a>
+            <a href="#" class="swiper-slide"><img src="image/book-3.png" alt=""></a>
+            <a href="#" class="swiper-slide"><img src="image/book-4.png" alt=""></a>
+            <a href="#" class="swiper-slide"><img src="image/book-5.png" alt=""></a>
+            <a href="#" class="swiper-slide"><img src="image/book-6.png" alt=""></a>
+           </div>
+           <img src="image/stand.png" class="stand" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!--home section ends-->
+
+<!--icons section starts-->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-plane"></i>
+        <div class="content">
+            <h3>gratis ongkir</h3>
+            <p>minimal pembelian 100k</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>pembayaran aman</h3>
+            <p>100+ metode pembayaran</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+            <h3>pengembalian mudah</h3>
+            <p>10 hari pengembalian barang</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>24 jam pelayanan</h3>
+            <p>hubungi kita setiap waktu</p>
+        </div>
+    </div>
+
+</section>
+
+<!--icons section ends-->
+
+<!--featured section starts-->
+
+<section class="featured" id="buku">
+
+    <h1 class="heading"><span>daftar buku</span></h1>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/buku 1.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>buku 1</h3>
+                    <div class="price">Rp 60.000 <span>Rp 75.000</span></div>
+                    <a href="#" class="btn">tambahkan ke keranjang</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/buku 2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>buku 2</h3>
+                    <div class="price">Rp 60.000 <span>Rp 75.000</span></div>
+                    <a href="#" class="btn">tambahkan ke keranjang</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/buku 3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>buku 3</h3>
+                    <div class="price">Rp 60.000 <span>Rp 75.000</span></div>
+                    <a href="#" class="btn">tambahkan ke keranjang</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/buku 4.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>buku 4</h3>
+                    <div class="price">Rp 60.000 <span>Rp 75.000</span></div>
+                    <a href="#" class="btn">tambahkan ke keranjang</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/buku 5.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>buku 5</h3>
+                    <div class="price">Rp 60.000 <span>Rp 75.000</span></div>
+                    <a href="#" class="btn">tambahkan ke keranjang</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/buku 6.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>buku 6</h3>
+                    <div class="price">Rp 60.000 <span>Rp 75.000</span></div>
+                    <a href="#" class="btn">tambahkan ke keranjang</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/buku 7.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>buku 7</h3>
+                    <div class="price">Rp 60.000 <span>Rp 75.000</span></div>
+                    <a href="#" class="btn">tambahkan ke keranjang</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/buku 8.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>buku 8</h3>
+                    <div class="price">Rp 60.000 <span>Rp 75.000</span></div>
+                    <a href="#" class="btn">tambahkan ke keranjang</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/buku 9.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>buku 9</h3>
+                    <div class="price">Rp 60.000 <span>Rp 75.000</span></div>
+                    <a href="#" class="btn">tambahkan ke keranjang</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/buku 10.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>buku 10</h3>
+                    <div class="price">Rp 60.000 <span>Rp 75.000</span></div>
+                    <a href="#" class="btn">tambahkan ke keranjang</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+</section>
+
+<!--featured section ends-->
+
+<!--newsletter section starts-->
+
+<section class="newsletter">
+
+    <form action="">
+        <h3>dapatkan harga spesial</h3>
+        <input type="email" name="" placeholder="masukkan voucher" id="" class="box">
+        <input type="submit" value="kirimkan" class="btn">
+    </form>
+
+</section>
+
+<!--newsletter section ends-->
+
+<!--arrivals section starts-->
+
+<section class="arrivals" id="terbaru">
+
+    <h1 class="heading"><span>hadir terbaru</span></h1>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/buku 1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>buku 1</h3>
+                        <div class="price">Rp 60.000 <span>Rp 75.000</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/buku 2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>buku 2</h3>
+                        <div class="price">Rp 60.000 <span>Rp 75.000</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/buku 3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>buku 3</h3>
+                        <div class="price">Rp 60.000 <span>Rp 75.000</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/buku 4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>buku 4</h3>
+                        <div class="price">Rp 60.000 <span>Rp 75.000</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/buku 5.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>buku 5</h3>
+                        <div class="price">Rp 60.000 <span>Rp 75.000</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+        </div>
+
+    </div>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/buku 6.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>buku 6</h3>
+                        <div class="price">Rp 60.000 <span>Rp 75.000</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/buku 7.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>buku 7</h3>
+                        <div class="price">Rp 60.000 <span>Rp 75.000</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/buku 8.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>buku 8</h3>
+                        <div class="price">Rp 60.000 <span>Rp 75.000</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/buku 9.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>buku 9</h3>
+                        <div class="price">Rp 60.000 <span>Rp 75.000</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/buku 10.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>buku 10</h3>
+                        <div class="price">Rp 60.000 <span>Rp 75.000</span></div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--arrivals section ends-->
+
+<!--deal section starts-->
+
+<section class="deal">
+
+    <div class="content">
+        <h3>stok terbatas</h3>
+        <h1>jangan sampai kehabisan</h1>
+        <p></p>
+        <a class="btn">diskon 20%</a>
+    </div>
+
+    <div class="image">
+        <img src="image/buku raksasa.jpg" alt="">
+    </div>
+
+</section>
+
+<!--deal section ends-->
+
+<!--review section starts-->
+
+<section class="reviews" id="ulasan">
+
+    <h1 class="heading"><span>ulasan pembeli</span></h1>
+
+    <div class="swiper reviews-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/orang 1.jpg" alt="">
+                <h3>Orang 1</h3>
+                <p>Akhirnya datang. Bukunya bagus banget. Seller ramah dan pengemasannya selalu aman. Top deh. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/orang 2.jpg" alt="">
+                <h3>Orang 2</h3>
+                <p>Akhirnya saya punya buku ini. Dari dulu kepengen banget beli ini dan akhirnya sekarang bisa kesampean.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/orang 3.jpg" alt="">
+                <h3>Orang 3</h3>
+                <p>Puas banget belanja disini. Pengemasannya aman dan rapi, sampainya juga cepet, terus isi buku nya bagus.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/orang 4.jpg" alt="">
+                <h3>Orang 4</h3>
+                <p>Bukunya sudah sampai di rumah dengan selamat dan gak ada cacat. Makasih banyak untuk seller yang sudah amanah.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/orang 5.jpeg" alt="">
+                <h3>Orang 5</h3>
+                <p>Isi bukunya bagus dan berwarna. Bahasanya ringan, mudah dipahami, dan menyentuh. Pengirimannya cepat dan aman.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/orang 6.jpg" alt="">
+                <h3>Orang 6</h3>
+                <p>Bubble wrapnya tebal sehingga buku aman terlindungi. Kualitasnya original dan masih tersegel. Mantap buat tokonya.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--review section ends-->
+
+<!--blogs section starts-->
+
+<section class="blogs" id="unggahan">
+
+    <h1 class="heading"><span>unggahan kami</span></h1>
+
+    <div class="swiper blogs-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>unggahan 1</h3>
+                    <p>"Menurutku buku itu seperti manusia, dalam arti buku akan muncul dalam hidupmu saat kamu sangat membutuhkannya."</p>
+                    <a class="btn">- Emma Thompson</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>unggahan 2</h3>
+                    <p>"Membaca semua buku yang bagus layaknya sebuah percakapan dengan pemikiran terbaik di abad-abad sebelumnya."</p>
+                    <a class="btn">- Rene Descartes</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>unggahan 3</h3>
+                    <p>"Membaca adalah latihan empati; latihan berjalan dengan sepatu orang lain untuk sementara waktu."</p>
+                    <a class="btn">- Malorie Blackman</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>unggahan 4</h3>
+                    <p>"Sebuah buku adalah satu-satunya tempat di mana kamu dapat memeriksa pikiran yang rapuh tanpa merusaknya."</p>
+                    <a class="btn">- Edward P. Morgan</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>unggahan 5</h3>
+                    <p>"Manusia hanya mempunyai dua cara untuk belajar, satu dengan membaca satunya lagi berkumpul dengan orang-orang pintar."</p>
+                    <a class="btn">- Will Rogers</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>unggahan 6</h3>
+                    <p>"Jika seseorang tidak dapat menikmati membaca buku berulang kali, tidak ada gunanya membacanya sama sekali."</p>
+                    <a class="btn">- Oscar Wilde</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--blogs section ends-->
+
+<!--order section starts-->
+
+<section id="pemesanan" class="order">
+
+    <div class="heading">
+        <span>pesan sekarang</span>
+    </div>
+
+    <form action="">
+        <div class="box-container">
+            <div class="box">
+                <div class="inputBox">
+                    <span>nama lengkap</span>
+                    <input type="text" placeholder="masukkan nama">
+                </div>
+                <div class="inputBox">
+                    <span>judul buku</span>
+                    <input type="text" placeholder="judul buku yang dipesan">
+                </div>
+                <div class="inputBox">
+                    <span>detail buku</span>
+                    <input type="text" placeholder="detail buku yang dipesan">
+                </div>
+                <div class="inputBox">
+                    <span>alamat anda</span>
+                    <textarea name="" placeholder="masukkan alamat" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="box">
+                <div class="inputBox">
+                    <span>email</span>
+                    <input type="text" placeholder="masukkan email">
+                </div>
+                <div class="inputBox">
+                    <span>kuantitas</span>
+                    <input type="number" placeholder="banyak buku yang dipesan">
+                </div>
+                <div class="inputBox">
+                    <span>tanggal pemesanan</span>
+                    <input type="datetime-local">
+                </div>
+                <div class="inputBox">
+                    <span>alamat kami</span>
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.1291759433075!2d111.02232081431553!3d-6.754097467920814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70d251c156041d%3A0xcb68907a8bfffd9d!2sSMA%20Negeri%201%20Pati!5e0!3m2!1sid!2sid!4v1650281449094!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <input type="submit" value="pesan sekarang" class="btn">
+    </form>
+
+</section>
+
+<!--order section ends-->
+
+<!--footer section starts-->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>lokasi kami</h3>
+            <a href="#"><i class="fas fa-map-marker-alt"></i>pati</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i>kudus</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i>jepara</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i>rembang</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i>blora</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i>grobogan</a>
+        </div>
+
+        <div class="box">
+            <h3>tautan cepat</h3>
+            <a href="#"><i class="fas fa-arrow-right"></i>beranda</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>buku</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>terbaru</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>ulasan</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>unggahan</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>pemesanan</a>
+        </div>
+
+        <div class="box">
+            <h3>tautan tambahan</h3>
+            <a href="#"><i class="fas fa-arrow-right"></i>info akun</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>barang dipesan</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>kebijakan privasi</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>metode pembayaran</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>layanan kami</a>
+        </div>
+
+        <div class="box">
+            <h3>info kontak</h3>
+            <a href="#"><i class="fas fa-phone"></i>+62-111-2222-3333</a>
+            <a href="#"><i class="fas fa-phone"></i>+62-444-5555-6666</a>
+            <a href="#"><i class="fas fa-envelope"></i>unknown321@gmail.com</a>
+            <img src="image/peta central java.jpg" class="map" alt="">
+        </div>
+
+    </div>
+
+    <div class="share">
+        <a href="https://www.instagram.com/fzhdynt/" class="fab fa-instagram"></a>
+        <a href="https://www.youtube.com/channel/UCIc2RO2B6uZj-8g5QptaWWw" class="fab fa-youtube"></a>
+        <a href="https://www.instagram.com/ridwan_officl/" class="fab fa-instagram"></a>
+        <a href="https://www.youtube.com/channel/UCBB5bczQOYkRn-dHE8jYaoA" class="fab fa-youtube"></a>
+    </div>
+
+    <div class="credit">dibuat oleh <span>faiz dan ridwan</span> | hak cipta dilindungi undang-undang</div>
+
+</section>
+
+<!--footer section ends-->
+
+<!--loader starts-->
+
+<div class="loader-container">
+    <img src="image/loader-img.gif" alt="">
+</div>
+
+<!--loader ends-->
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<!--custom js file link-->
+<script src="script.js"></script>
+
+</body>
+</html>
